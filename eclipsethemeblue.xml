@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme author="Matej Szendi" id="699" modified="2011-03-14 13:54:46" name="ArcUbuntuv2">
+    <searchResultIndication color="#F59191"/>
+    <filteredSearchResultIndication color="#F59191"/>
+    <occurrenceIndication color="#D9D9D9"/>
+    <writeOccurrenceIndication color="#B5B5B5"/>
+    <findScope color="#F59191"/>
+    <sourceHoverBackground color="#e8e8e8"/>
+    <singleLineComment bold="false" color="#A5A5A5"/>
+    <multiLineComment color="#A5A5A5"/>
+    <commentTaskTag bold="false" color="#878787"/>
+    <javadoc color="#a39d97"/>
+    <javadocLink color="#a39d97"/>
+    <javadocTag color="#878787"/>
+    <javadocKeyword color="#878787"/>
+    <class color="#3C3C3C"/>
+    <interface color="#3C3C3C"/>
+    <method color="#3C3C3C"/>
+    <methodDeclaration color="#3C3C3C"/>
+    <bracket color="#3C3C3C"/>
+    <number color="#AF3232"/>
+    <string color="#168A35"/>
+    <operator color="#3C3C3C"/>
+    <keyword color="#0088c8"/>
+    <annotation color="#808080"/>
+    <staticMethod color="#686868"/>
+    <constant color="#444444" italic="false" bold="true" />
+    <localVariable color="#a3306a"/>
+    <localVariableDeclaration bold="false" color="#a3306a"/>
+    <field bold="false" color="#3C3C3C"/>
+    <staticField italic="false" bold="true" color="#3C3C3C"/>
+    <staticFinalField italic="false" bold="true" color="#3C3C3C"/>
+    <deprecatedMember bold="false" color="#3C3C3C"/>
+    <background color="#FFFFFF"/>
+    <currentLine color="#EEEEEE"/>
+    <foreground color="#3C3C3C"/>
+    <lineNumber color="#888888"/>
+    <selectionBackground color="#4297D1"/>
+    <selectionForeground bold="true" color="#FFFFFF" />
+</colorTheme>

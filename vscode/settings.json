@@ -1,0 +1,98 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.fontFamily": "'FiraFlott', 'Fira Code Medium', 'Fira Mono Medium', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.rulers": [
+        120
+    ],
+    "workbench.colorCustomizations": {},
+    "workbench.tree.indent": 20,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": [
+                    //following will be in italic (=FlottFlott)
+                    // "comment",
+                    "entity.name.type.class", //class names
+                    "keyword", //import, export, returnâ€¦
+                    // "support.function", 
+                    // "storage",  
+                    "constant", //String, Number, Booleanâ€¦, this, super
+                    "storage.modifier", //static keyword
+                    "storage.type.class.js", //class keyword
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": [
+                    //following will be excluded from italics (VSCode has some defaults for italics)
+                    "comment",
+                    "string",
+                    "invalid",
+                    "keyword.operator",
+                    "keyword.control",
+                    "constant.numeric.css",
+                    "keyword.other.unit.px.css",
+                    "constant.numeric.decimal.js",
+                    "constant.numeric.json",
+                    "variable"
+                ],
+                "settings": {
+                    "fontStyle": ""
+                }
+            }
+        ]
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "debug.console.fontSize": 12,
+    "debug.console.fontFamily": "'Fira Code Medium', 'Fira Mono Medium', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "terminal.integrated.fontSize": 12,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "workbench.colorTheme": "Ayu Light Bordered",
+    "material-icon-theme.folders.theme": "classic",
+    "editor.mouseWheelZoom": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    // "[javascript]": {
+    //     "editor.defaultFormatter": "vscode.typescript-language-features"
+    // },
+    // "[html]": {
+    //     "editor.defaultFormatter": "vscode.html-language-features"
+    // },
+    // "[jsonc]": {
+    //     "editor.defaultFormatter": "vscode.json-language-features"
+    // },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "eslint.validate": [
+        "javascript"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[python]": {
+        "editor.formatOnType": true
+    },
+}
